@@ -1,14 +1,8 @@
 {
-  "name": "simple-webapp",
+  "name": "my-vercel-app",
   "version": "1.0.0",
-  "description": "Minimal static HTML/JS app for Railway",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
+  "description": "Minimal static HTML/JS app for Vercel",
+  "scripts": {},
   "author": "Yosef Barzilay",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.2"
-  }
+  "license": "ISC"
 }
