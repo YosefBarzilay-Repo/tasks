@@ -1,23 +1,14 @@
 {
   "name": "multienv",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple static HTML/JS app served with Express",
+  "main": "server.js",
   "scripts": {
-  "start": "node server.js"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/YosefBarzilay-Repo/tasks.git"
-  },
-  "keywords": [],
-  "author": "",
+  "author": "Yosef Barzilay",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/YosefBarzilay-Repo/tasks/issues"
-  },
-  "homepage": "https://github.com/YosefBarzilay-Repo/tasks#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^4.18.2"
   }
 }
