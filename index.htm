@@ -2,36 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Simple JS App</title>
-  <style>
-    body { font-family: Arial; padding: 20px; }
-    input { padding: 5px; }
-    button { padding: 5px; margin-left: 5px; }
-    ul { list-style-type: none; padding: 0; }
-    li { padding: 5px 0; }
-  </style>
+  <title>My Railway App</title>
 </head>
 <body>
-  <h1>Simple To-Do List</h1>
-  <input type="text" id="taskInput" placeholder="Add a task">
-  <button onclick="addTask()">Add</button>
-  <ul id="taskList"></ul>
-
-  <script>
-    const taskInput = document.getElementById('taskInput');
-    const taskList = document.getElementById('taskList');
-
-    function addTask() {
-      const task = taskInput.value.trim();
-      if (!task) return;
-
-      const li = document.createElement('li');
-      li.textContent = task;
-      li.onclick = () => li.remove(); // קליק למחיקה
-      taskList.appendChild(li);
-
-      taskInput.value = '';
-    }
-  </script>
+  <h1>Hello Railway!</h1>
+  <p>This is a minimal static HTML/JS app.</p>
 </body>
 </html>

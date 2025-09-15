@@ -1,7 +1,7 @@
 {
-  "name": "multienv",
+  "name": "simple-webapp",
   "version": "1.0.0",
-  "description": "Simple static HTML/JS app served with Express",
+  "description": "Minimal static HTML/JS app for Railway",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
